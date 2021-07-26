@@ -1,0 +1,66 @@
+.name {
+    color: rgb(158, 137, 207);
+}
+
+.typing {
+    opacity: 0.8;
+}
+#icon-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 150px;
+  }
+  .a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .a:hover {
+    color: rgb(54, 54, 54);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .a {
+    text-decoration: none;
+  }
+.margin {
+    margin-top: 15px;
+}
+
+.status {
+    font-weight: 100;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@media (min-width: 768px) {
+    .typing {
+        animation: typing 2s steps(70), blink 0.5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+    }
+}
