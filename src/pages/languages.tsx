@@ -17,6 +17,12 @@ export default function Languages() {
                         <img src="node.png" />
                     </div>
                     <div className={styles.sectionItem}>
+                        <img src="typescript.png" />
+                    </div>
+                    <div className={styles.sectionItem}>
+                        <img src="javascript.png" />
+                    </div>
+                    <div className={styles.sectionItem}>
                         <img src="react.png" />
                     </div>
                     <div className={styles.sectionItem}>
